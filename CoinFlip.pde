@@ -1,6 +1,6 @@
 //main
 //PFont mono = createFont("andalemo.ttf", 128);
-int iters = 50;
+int iters = 1000;
 double tails = 0, heads = 0, total = 0;
 
 Coin myC = new Coin(250, 250, 100);
