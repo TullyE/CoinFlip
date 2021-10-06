@@ -32,9 +32,9 @@ void draw()
   {
     double totalT = (tails/total * 100);
     double totalH = (heads/total * 100);
-    System.out.printf("Tails: %.2f of the time\n", totalT);
-    System.out.printf("Heads: %.2f of the time\n", totalH);
-    System.out.println("Fan " + total + " times");
+    text("Tails: " + totalT + "% of the time", 15, height-100);
+    text("Heads: " + totalH + "% of the time, 15, height-75);
+    text("Ran " + total + " times", 15, height-50);
     stop();
   }
 }
