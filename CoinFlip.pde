@@ -35,6 +35,6 @@ void draw()
     text("Tails: " + totalT + "% of the time", 15, height-100);
     text("Heads: " + totalH + "% of the time, 15, height-75);
     text("Ran " + total + " times", 15, height-50);
-    stop();
+    //stop();
   }
 }
