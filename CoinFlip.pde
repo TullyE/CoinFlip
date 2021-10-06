@@ -33,7 +33,7 @@ void draw()
     double totalT = (tails/total * 100);
     double totalH = (heads/total * 100);
     text("Tails: " + totalT + "% of the time", 15, height-100);
-    text("Heads: " + totalH + "% of the time, 15, height-75);
+    text("Heads: " + totalH + "% of the time", 15, height-75);
     text("Ran " + total + " times", 15, height-50);
     //stop();
   }
